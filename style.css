@@ -1,0 +1,192 @@
+@media (min-width: 501px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        width: 100vw;
+        height: 100vh;
+        background-color: gray;
+    }
+    
+    main {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .calculadora {
+        max-width: 350px;
+        background-color: white;
+        width: 70vw;
+        height: 620px;
+        border-radius: 20px;
+        box-shadow: 3px 3px 34px -4px rgba(0, 0, 0, 0.445);
+    }
+
+    .tela {
+        border-radius: 10px;
+        width: 90%;
+        height: 15vh;
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .tela > p {
+        font-size: 30px;
+        text-align: right;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    
+    div {
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    div#limpar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    div#limpar > button {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: rgb(224, 224, 224);
+        border: none;
+        width: 30px;
+        height: 30px;
+        margin-top: 13px;
+        transition: ease 0.5s;
+    }
+    
+    div#limpar > button:hover {
+        background-color: rgb(184, 184, 184);
+    }
+    
+    div#limpar > button:active {
+        background-color: rgb(184, 184, 184);;
+    }
+    
+    .btn {
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(224, 224, 224);
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+        transition: ease 0.5s;
+    }
+    
+    .btn:hover {
+        background-color: rgb(184, 184, 184);
+    }
+    
+    .btn:active {
+        background-color: rgb(184, 184, 184);
+    }
+    
+    .funcoes {
+        max-width: 524px;
+        margin-top: 13px;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .calculadora {
+        max-width: 350px;
+        background-color: white;
+        width: 100vw;
+        height: 100vh;
+        border-radius: 20px;
+    }
+    
+    .tela {
+        border-radius: 10px;
+        width: 90%;
+        height: 15vh;
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .tela > p {
+        font-size: 30px;
+        text-align: right;
+        margin-top: 45px;
+        margin-right: 10px;
+    }
+    
+    div {
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    div#limpar {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    div#limpar > button {
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: rgb(224, 224, 224);
+        border: none;
+        width: 30px;
+        height: 30px;
+        margin-top: 13px;
+        transition: ease 0.5s;
+    }
+    
+    div#limpar > button:active {
+        background-color: rgb(184, 184, 184);;
+    }
+    
+    .btn {
+        border-radius: 10px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(224, 224, 224);
+        width: 100px;
+        height: 50px;
+        margin: 2px;
+        transition: ease 0.5s;
+    }
+    
+    .btn:active {
+        background-color: rgb(184, 184, 184);
+    }
+    
+    .funcoes {
+        max-width: 524px;
+        margin-top: 13px;
+        margin-left: 16px;
+    }
+}
