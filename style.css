@@ -37,6 +37,7 @@
         border: 1px solid black;
         margin: auto;
         margin-top: 20px;
+        overflow: hidden;
     }
     
     .tela > p {
